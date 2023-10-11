@@ -1,0 +1,496 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+
+#optionsOfBg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 407px;
+    padding-right: 407px;
+    max-height: 65px;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 19px;
+    background-color: #fff;
+}
+
+.number {
+    font-size: 16px;
+}
+
+.button-call {
+    border: 0px;
+    background-color: #ffa019;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 192px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Логотип + навигация */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 407px;
+    padding-right: 407px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #fff;
+
+}
+
+.menu-shadow {
+    box-shadow: 1px -10px 7px -7px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navigation {
+    word-spacing: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-about-us {
+    word-spacing: 0;
+}
+
+/* Картинка + заголовок с текстом + кнопка */
+.greetings {
+    text-align: center;
+    flex-direction: column;
+    /*background-image: url(/img/Scooter\ image.png);*/
+    min-height: 878px;
+    color: white;
+    align-items: center;
+}
+
+.title {
+    padding-top: 180px;
+    font-size: 56px;
+    font-weight: lighter;
+}
+
+.menu-text {
+    padding-right: 675px;
+    padding-left: 675px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-button {
+    border: 0px;
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    max-height: 27px;
+    min-width: 139px;
+}
+
+/*Преимущества*/
+.advantages {
+    padding-left: 407px;
+    padding-right: 265px;
+    font-weight: lighter;
+}
+
+.advantages p {
+    font-size: 34px;
+}
+
+.advantages table {
+    padding-top: 106px;
+    font-size: 20px;
+    border-spacing: 71px 0px;
+}
+
+.advantages table td {
+    text-align: center;
+}
+
+/*О нас*/
+.about-us {
+    padding-top: 201px;
+    padding-left: 407px;
+    padding-right: 407px;
+}
+
+.as-title {
+    font-size: 34px;
+    font-weight: lighter;
+    margin-bottom: 101px;
+}
+
+.as-text {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+/*Рассылка*/
+.mailing {
+    background-color: #FFA019;
+    padding-left: 407px;
+    padding-right: 407px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+}
+
+.mailing-text {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    line-height: 49px;
+}
+
+.mailing-subscription {
+    max-width: 290px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.data {
+    border: solid 1px white;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    min-width: 223px;
+    padding-left: 20px;
+    background-color: #FFA019;
+    display: flex;
+}
+.mailing-inputField {
+    opacity: 0;
+}
+.mailing-inputField:hover {
+    opacity: 100;
+}
+
+.mailing button {
+    border-radius: none;
+    min-width: 243px;
+    align-items: center;
+    min-height: 49px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mailing a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Особенности*/
+.features {
+    padding-top: 190px;
+    padding-right: 407px;
+    padding-left: 407px;
+}
+
+.features-title {
+    font-size: 34px;
+    font-weight: lighter;
+}
+
+.features table {
+    padding-top: 54px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 85px;
+}
+
+.features table td {
+    padding-right: 94px;
+}
+
+.features-text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+/*Каталог*/
+.catalog {
+    padding-top: 147px;
+    padding-right: 407px;
+    padding-left: 407px;
+}
+
+.catalog-nav-menu {
+    justify-content: space-between;
+    display: flex;
+    line-height: 25px;
+}
+
+.catalog-title {
+    font-size: 34px;
+    font-weight: lighter;
+}
+
+.catalog-nav {
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.catalog-nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.catalog-nav-item:hover {
+    border: none;
+    background-color: #FFA019;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*Товарвы каталога*/
+.goods {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-shadow {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    max-width: 249px;
+}
+
+.goods-category {
+    margin-top: 25px;
+    position: absolute;
+    background-color: #FFA019;
+    border-radius: 0px 15px 15px 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.goods-img {
+    padding-top: 25px;
+    width: 214px;
+    height: 214px;
+}
+
+.goods-name {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    min-height: 50px;
+}
+
+.goods-price {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+/*Консультанты*/
+.consultant {
+    margin-top: 116px;
+    padding-right: 407px;
+    padding-left: 407px;
+}
+.consultant-title {
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.consultant-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.consultant-img {
+    width: 150px;
+    height: 150px;
+}
+
+.consultant-card {
+    display: flex;
+}
+
+.consultant-info {
+    min-width: 212px;
+    line-height: 40px;
+    padding-left: 39px;
+}
+
+.consultant-name {
+    font-size: 20px;
+}
+
+.consultant-job {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.consultant-write {
+    font-size: 10px;
+    font-style: italic;
+    background-color: #FFA019;
+    max-width: 82px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.consultant-write a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Бренды*/
+.brands {
+    background-color: #fbfbfb;
+    min-height: 196px;
+    justify-content: space-between;
+    font-size: 50px;
+    color: #9b9b9b;
+    line-height: 196px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 30px;
+    margin-top: 86px;
+}
+
+/*Советы*/
+.Usefull {
+    padding-top: 46px;
+    padding-left: 407px;
+    padding-right: 407px;
+    padding-bottom: 372px;
+}
+
+.Usefull-title {
+    font-size: 34px;
+    font-weight: lighter;
+    color: #9b9b9b;
+}
+
+.Usefull-info {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info img {
+    opacity: 40%;
+    position: absolute;
+    z-index: -1;
+}
+
+.useful-bg {
+    background-color: black;
+    width: 240px;
+    height: 261px;
+    z-index: 1;
+
+}
+
+.info {
+    z-index: 2;
+    color: white;
+
+}
+
+.info-text {
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Подвал*/
+.footer {
+    background-color: #fbfbfb;
+    padding-right: 407px;
+    padding-left: 407px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info1 {
+    width: 338px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.footer-text1 {
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #8191A6;
+}
+
+.footer-info2 {
+    padding-top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text2 {
+    padding-right: 56px;
+}
+
+.footer-info-title {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 22px;
+}
+
+.footer-category {
+    font-size: 14px;
+    color: #8191A6;
+}
+
+.footer-category a {
+    text-decoration: none;
+    color: #8191A6;
+}
